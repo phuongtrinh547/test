@@ -1,0 +1,66 @@
+body {
+  margin: 0 0 !important;
+}
+
+.container {
+  display: flex;
+}
+
+.navigation {
+  flex: 0 0 10%;
+  background-color: black;
+  color: rgb(209, 206, 206);
+  height: inherit;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.navigation button {
+  padding: 7px;
+  border-bottom: 1px solid gray;
+  border: none;
+  background-color: inherit;
+  color: rgb(161, 155, 155);
+  border-bottom: 1px solid gray;
+}
+.navigation button:hover {
+  background-color: rgb(107, 104, 104);
+  color: white;
+}
+.navigation button:focus {
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 100px;
+}
+.main .logo {
+  display: flex;
+  justify-content: center;
+}
+.main .logo img {
+  width: 300px;
+}
+.main .introduction {
+  text-align: center;
+  background-color: rgb(221, 219, 219);
+  padding: 10px 100px;
+}
+.main .category {
+  display: flex;
+  gap: 25px;
+}
+.main .category .img-text img {
+  width: 100px;
+  float: left;
+  overflow: auto;
+  margin: 0px 10px 10px 0px;
+}
+
+.source {
+  border-top: 1px solid rgb(198, 198, 198);
+  padding: 20px 100px;
+}/*# sourceMappingURL=style.css.map */

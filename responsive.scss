@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+	.navigation {
+		flex: 0 0 15%;
+	}
+
+	.main {
+		margin: 20px 50px;
+	}
+
+	.introduction {
+		padding: 10px 50px !important;
+	}
+
+	.category {
+		display: block !important;
+	}
+
+	.source {
+		padding: 20px 50px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.main {
+		margin: 20px 20px;
+	}
+
+	.source {
+		padding: 20px 20px;
+	}
+}
